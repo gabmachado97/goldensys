@@ -1,6 +1,5 @@
 'use client'
 
-import { truncate } from 'original-fs';
 import React, { useCallback } from 'react';
 import Particles from 'react-tsparticles';
 import { loadFull } from "tsparticles";

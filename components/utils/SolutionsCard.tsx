@@ -18,7 +18,7 @@ interface SolutionsCardProps {
       imageUrl: any;
       whatWeDo: string;
       whyUs: string;
-      platforms: [any];
+      platforms: any[];
     };
   //children: React.ReactNode;
 }
