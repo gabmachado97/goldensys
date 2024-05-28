@@ -21,13 +21,14 @@ export default function Contact() {
                   <p className="text-gray-300 text-xl mb-6">Vamos conversar e desenvolver a sua solução <span className="font-bold text-white">juntos</span>.</p>
                 </div>
 
-                <div className="flex">
-                  <div className="" data-aos-duration="3000" data-aos="zoom-out-right">
+                <div className="flex flex-col items-center sm:flex-row">
+                  <div className="w-1/2 flex flex-col items-center" data-aos-duration="3000" data-aos="zoom-out-right">
                     <Image
                         src={mail}
                         width={60}
                         height={60}
                         alt={"Email"}
+                        className=""
                       />
 
                     <p className="text-gray-500 text-xs mt-3 font-bold">e-mail</p>
@@ -35,7 +36,7 @@ export default function Contact() {
 
                   </div>
 
-                  <div className="ml-8" data-aos-duration="3000" data-aos-offset="100" data-aos="zoom-out-left">
+                  <div className="w-1/2 flex flex-col items-center" data-aos-duration="3000" data-aos-offset="100" data-aos="zoom-out-left">
                     <Image
                         src={wpp}
                         width={46}
@@ -55,7 +56,7 @@ export default function Contact() {
 
               {/* CTA form */}
               <div className="w-full lg:w-1/2" data-aos-duration="3000" data-aos="fade-left"> {/* Adjusted width to take up half of the container */}
-                <form className="flex flex-col lg:flex-col justify-center max-w-xs mx-auto sm:max-w-md lg:mx-0">
+                <form className="flex flex-col lg:flex-col justify-center max-w-xs mx-auto sm:max-w-md lg:mx-0 mt-5">
                   <input type="name" className="form-input w-full appearance-none bg-gray-800 border border-gray-700 focus:border-gray-600 rounded-sm px-4 py-3 mb-4 text-white placeholder-gray-500" placeholder="Seu nome..." aria-label="Seu nome..." />
                   <input type="email" className="form-input w-full appearance-none bg-gray-800 border border-gray-700 focus:border-gray-600 rounded-sm px-4 py-3 mb-4 text-white placeholder-gray-500" placeholder="Seu email…" aria-label="Seu email…" />
                   <input type="phone" className="form-input w-full appearance-none bg-gray-800 border border-gray-700 focus:border-gray-600 rounded-sm px-4 py-3 mb-4 text-white placeholder-gray-500" placeholder="Seu telefone..." aria-label="Seu telefone..." />

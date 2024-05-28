@@ -140,11 +140,11 @@ export default function Features() {
                       <Image className="md:max-w-none absolute left-5 transform animate-float" src={qmlLogo} width={50} height="44" alt="Element" style={{ top: '70%' }} />
                       <Image className="md:max-w-none absolute left-1/4 transform animate-float" src={pythonLogo} width={50} height="44" alt="Element" style={{ top: '70%' }} />
                       <div className="mt-5 flex items-center ">
-                      <div className="">
-                        <a className="btn text-white bg-blue-600 hover:bg-blue-700 w-full ml-6 mb-4 sm:w-auto sm:mb-0" target="_blank" href="https://github.com/gabmachado97/includIO">Source Code</a>
+                      <div className="ml-5">
+                        <a className="btn text-white bg-blue-600 hover:bg-blue-700 sm:w-auto" target="_blank" href="https://github.com/gabmachado97/includIO">Source Code</a>
                       </div>
-                      <div>
-                        <a className="btn text-white bg-gray-900 hover:bg-gray-800 w-full mr-2 sm:w-auto sm:ml-4" target="_blank" href="https://www.dropbox.com/scl/fi/p7gh2f7miygj0lw0tbuuv/includIO.zip?rlkey=qv7ygy11gdwnvs2f3vl356o08&st=b3xf6y76&dl=0">Download</a>
+                      <div className="ml-5 sm:ml-2">
+                        <a className="btn text-white bg-gray-900 hover:bg-gray-800 sm:w-auto" target="_blank" href="https://www.dropbox.com/scl/fi/p7gh2f7miygj0lw0tbuuv/includIO.zip?rlkey=qv7ygy11gdwnvs2f3vl356o08&st=b3xf6y76&dl=0">Download</a>
                       </div>
                       </div>
                       {/* <Image className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width={500} height="44" alt="Element" style={{ top: '30%' }} /> */}
