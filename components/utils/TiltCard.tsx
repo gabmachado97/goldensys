@@ -70,10 +70,10 @@ const TiltCard: React.FC<SolutionsCardProps> = ({ styleProps }) => {
             transformStyle: "preserve-3d",
             transform, 
           }}
-          className="relative bg-no-repeat bg-[length:100%_100%] h-420 w-340 rounded-xl bg-gradient-to-br from-indigo-300 to-violet-300"
+          className="relative bg-no-repeat rounded-xl bg-gradient-to-br from-indigo-300 to-violet-300"
         >
          <Image className="w-full h-full" src={backgroundImage} 
-                width={360} height="462" alt="bgImage" 
+                width={340} alt="bgImage" 
                 style={{
                     transformStyle: "preserve-3d",
                      
