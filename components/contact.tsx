@@ -61,7 +61,7 @@ export default function Contact() {
                   <input type="email" className="form-input w-full appearance-none bg-gray-800 border border-gray-700 focus:border-gray-600 rounded-sm px-4 py-3 mb-4 text-white placeholder-gray-500" placeholder="Seu email…" aria-label="Seu email…" />
                   <input type="phone" className="form-input w-full appearance-none bg-gray-800 border border-gray-700 focus:border-gray-600 rounded-sm px-4 py-3 mb-4 text-white placeholder-gray-500" placeholder="Seu telefone..." aria-label="Seu telefone..." />
                   <textarea rows={5} className="form-input h-32 w-full appearance-none bg-gray-800 border border-gray-700 focus:border-gray-600 rounded-sm px-4 py-3 mb-4 text-white placeholder-gray-500" placeholder="Mensagem…" aria-label="Mensagem…" />{/* <a className="btn text-white bg-blue-600 hover:bg-blue-700 shadow" href="#0">Subscribe</a> */}
-                  <a className="btn text-white bg-blue-600 hover:bg-blue-700 shadow" href="#0">Enviar</a>
+                  <a className="btn text-white bg-blue-600 hover:bg-blue-700 shadow" href="#0">Enviar (função em desenvolvimento)</a>
                 </form>
               </div>
 

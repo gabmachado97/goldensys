@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useRef, useEffect } from 'react'
+import TiltCard from './utils/TiltCard'
 import { Transition } from '@headlessui/react'
 import Image from 'next/image'
 import qmlLogo from '@/public/images/logos/qml.png'
@@ -136,9 +137,7 @@ export default function Features() {
                     unmount={false}                     
                   >
                     <div className="relative inline-flex flex-col mt-20">
-                      <Image className="md:max-w-none mx-auto rounded-md" src={includBg} width={360} height="462" alt="Features bg" />
-                      <Image className="md:max-w-none absolute left-5 transform animate-float" src={qmlLogo} width={50} height="44" alt="Element" style={{ top: '70%' }} />
-                      <Image className="md:max-w-none absolute left-1/4 transform animate-float" src={pythonLogo} width={50} height="44" alt="Element" style={{ top: '70%' }} />
+                      <TiltCard styleProps={{backgroundImage:includBg, title:"includ.io", msg:"+ agilidade & - erros", sources:[pythonLogo, qmlLogo]}}/>
                       <div className="mt-5 flex items-center ">
                       <div className="ml-5">
                         <a className="btn text-white bg-blue-600 hover:bg-blue-700 sm:w-auto" target="_blank" href="https://github.com/gabmachado97/includIO">Source Code</a>
@@ -164,9 +163,10 @@ export default function Features() {
                     beforeEnter={() => heightFix()}
                     unmount={false}                     
                   >
-                    <div className="relative inline-flex flex-col">
-                      <Image className="md:max-w-none mx-auto rounded" src={FeaturesBg} width={500} height="462" alt="Features bg" />
-                      <Image className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width={500} height="44" alt="Element" style={{ top: '30%' }} />
+                    <div className="relative inline-flex flex-col mt-20">
+                      <TiltCard styleProps={{backgroundImage:includBg, title:"includ.io", msg:"+ agilidade & - erros", sources:[pythonLogo, qmlLogo]}}/>
+                      {/* <Image className="md:max-w-none mx-auto rounded" src={FeaturesBg} width={500} height="462" alt="Features bg" />
+                      <Image className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width={500} height="44" alt="Element" style={{ top: '30%' }} /> */}
                     </div>
                   </Transition>
                   {/* Item 3 */}
@@ -183,9 +183,8 @@ export default function Features() {
                     beforeEnter={() => heightFix()}
                     unmount={false}                     
                   >
-                    <div className="relative inline-flex flex-col">
-                      <Image className="md:max-w-none mx-auto rounded" src={FeaturesBg} width={500} height="462" alt="Features bg" />
-                      <Image className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width={500} height="44" alt="Element" style={{ top: '30%' }} />
+                    <div className="relative inline-flex flex-col mt-20">
+                      <TiltCard styleProps={{backgroundImage:includBg, title:"includ.io", msg:"+ agilidade & - erros", sources:[pythonLogo, qmlLogo]}}/>
                     </div>
                   </Transition>
                 </div>

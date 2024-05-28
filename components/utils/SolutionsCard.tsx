@@ -26,8 +26,6 @@ interface SolutionsCardProps {
 const SolutionsCard: React.FC<SolutionsCardProps> = ({ styleProps }) => {
   const { idService, title, text, backgroundUrl, iconUrl, imageUrl, whatWeDo, whyUs, platforms } = styleProps;
 
-  console.log('Current value of backgroundUrl:', `url(${backgroundUrl})`);
-  console.log('Current value of backgriconUrloundUrl:', iconUrl);
 
   return (
   
