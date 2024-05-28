@@ -136,7 +136,7 @@ export default function Features() {
                     beforeEnter={() => heightFix()}
                     unmount={false}                     
                   >
-                    <div className="relative inline-flex flex-col mt-20">
+                    <div className="relative inline-flex flex-col mt-8">
                       <TiltCard styleProps={{backgroundImage:includBg, title:"includ.io", msg:"+ agilidade & - erros", sources:[pythonLogo, qmlLogo]}}/>
                       <div className="mt-5 flex items-center ">
                       <div className="ml-5">
